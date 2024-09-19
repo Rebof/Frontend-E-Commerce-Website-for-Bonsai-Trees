@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+  </head>
+  <link rel="stylesheet" href="../css/style2.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+div.header{
+  top: 40px;
+}
+    .heading {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 19px;
+      color: #929289;
+    }
+
+    /* giving css to hr, its a underline tag */
+    hr {
+      display: inline-block;
+      width: 40%;
+      height: 2px;
+      background-color: rgb(187, 76, 76);
+      margin-right: auto;
+    }
+
+    .section-1 {
+      margin: 30px 50px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .contents-1 {
+      width: 46%;
+      padding: 0 20px 0 0px;
+      text-align: justify;
+      line-height: 28px;
+      border-right: 4px solid rgb(187, 76, 76);
+      border-bottom: 4px solid rgb(187, 76, 76);
+    }
+
+    .section-2 {
+      margin: 50px 50px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .contents-2 {
+      width: 46%;
+      text-align: justify;
+      line-height: 28px;
+      padding: 0 0px 0 20px;
+      border-left: 4px solid rgb(187, 76, 76);
+      border-bottom: 4px solid rgb(187, 76, 76);
+    }
+    .image-1 img{
+      height: 292px;
+    width: 350px;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    border-radius: 35px;
+      
+}
+.image-2 img{
+    height: 292px;
+    width: 350px;
+    position: absolute;
+    top: 725px;
+    right: 150px;
+    border-radius: 35px;
+}
+  </style>
+  
+<center class="one">
+  <img src="../logo/bonzai-high-resolution-logo-color-on-transparent-background.png" alt="logo"> 
+  <!-- using image for body  -->
+</center>
+
+<link rel="stylesheet" href="../css/style2.css">
+<body>
+  <div class="header"><!-- navigation bar div -->
+    <a href="https://www.facebook.com/bonsainepal.bonsaitrees"><svg class=" loho fb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+        </svg></a>
+    <a href="https://www.instagram.com/bonsainepalbonsaitrees/"><svg class=" loho insta" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="feather feather-instagram">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg></a>
+    <a href="https://twitter.com/bonsainep"><svg class="loho twt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path 
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+        </svg></a>
+</div>
+  <br><br>
+  <nav>
+    <a href="../index.html">
+        <?xml version="1.0" ?><svg class="home" style="height:20px;width:20px" viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z" />
+        </svg>Home
+    </a>
+    <a href="../Html/product.html"><svg class="clone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-copy">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>Services</a>
+    <a href="../Html/form.html" target="_blank"><svg class="phone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0V0z" />
+            <path
+                d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z" />
+        </svg>Contact</a>
+    <a href="../Html/blog.html">
+        <?xml version="1.0" ?><svg class="cmnt" fill="none" height="24" viewBox="0 0 24 24" width="24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M8.25 2C6.53691 2 5.13339 3.32542 5.00897 5.00672C5.08874 5.00226 5.16911 5 5.25 5H14.75C17.0972 5 19 6.90279 19 9.25V15.75C19 15.8309 18.9977 15.9113 18.9933 15.991C20.6746 15.8666 22 14.4631 22 12.75V6.75C22 4.12665 19.8734 2 17.25 2H8.25Z"
+                fill="#212121" />
+            <path
+                d="M17.9905 16C17.8629 17.6781 16.4608 19 14.75 19H10.6667L7 21.75C6.17595 22.368 5 21.7801 5 20.75V18.9905C3.32189 18.8629 2 17.4608 2 15.75V9.25C2 7.53919 3.32189 6.13713 5 6.00947C5.08251 6.0032 5.16588 6 5.25 6H14.75C16.5449 6 18 7.45507 18 9.25V15.75C18 15.8341 17.9968 15.9175 17.9905 16Z"
+                fill="#212121" />
+        </svg>Blog
+    </a>
+    <a href="../Html/aboutus.html"><svg class="user" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+        </svg>About Us</a>
+        <a href="../Html/research.html"><svg class="research" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M17.825 24h-15.825v-24h10.189c3.162 0 9.811 7.223 9.811 9.614v10.071l-2-2v-7.228c0-4.107-6-2.457-6-2.457s1.517-6-2.638-6h-7.362v20h11.825l2 2zm-2.026-4.858c-.799.542-1.762.858-2.799.858-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5c0 1-.294 1.932-.801 2.714l4.801 4.872-1.414 1.414-4.787-4.858zm-2.799-7.142c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3z"/></svg>Reference</a>
+</nav>
+  <br><br><br>
+    <div class="wrapper-blog-page">
+      <div class="heading">
+        <h1>How technology has affected us in our daily life?</h1>
+        <hr />
+        <!-- giving css property to hr later -->
+      </div>
+
+      <div class="date">
+        <p>January 20, 2023</p>
+      </div>
+
+      <!-- this is section 1 -->
+      <div class="section-1">
+        <div class="image-1">
+          <img src="../images/juniper3.jpg" alt="" />
+        </div>
+
+        <div class="contents-1">
+          <p>
+            We can know what is happening around the world in just one second.
+            Our daily life is the best example to see how technology has
+            affected us. That’s the power of technology. From simple to complex
+            calculations can be easily done. Many more amazing tools and
+            resources have been created putting information in our fingertips.
+            Modern technology has advanved in such the way for modern devices
+            like smartwatch, mobiles etc. Computers are becoming more powerful
+            and portable than before. With all these revolutions, technology has
+            also made our lives easier, faster, better, and more fun.
+          </p>
+
+          <p>
+            Technology, is an essential and most important need in everybody's
+            life. Without technology, we are nothing. Many things would not be
+            able to improve. Technology on other hand has made our life even
+            more enjoyable and easy.
+          </p>
+        </div>
+      </div>
+      <!-- this is section 2 -->
+      <div class="section-2">
+        <div class="contents-2">
+          <p>
+            We can clearly see vast changes in our daily life. Technology is
+            changing on how we think, it is gradually changing our life, our
+            ambiance and everything. from food and healthcare to transportation
+            to productivity there is use of technology. Technology is even
+            giving positive impact on our communication globally, for instance
+            it has affected through internet. we can distinguish how technology
+            has changed our world. We can know how much technology has given
+            easy lives to us. From register book to database, From fingerprint
+            collection to biometrics, from abacus to modern calculator.
+          </p>
+          <p>
+            The influence of social media on humans is unreal. The number of
+            active users globally is now billions. Billion is almost half a
+            million of peoples. Mostly, Childres are the number of active users
+            globally. They are affected by technology and it's influence is
+            always on our communication.
+          </p>
+        </div>
+
+        <div class="image-2" id="img">
+          <img src="../images/tech1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>Bon<span>Zai</span></h3>
+
+        <p class="footer-links">
+            <a href="../index.html" class="link-1">Home</a>
+
+            <a href="../Html/blog.html"> Blog</a>
+
+            <a href="../Html/product.html">Pricing</a>
+
+            <a href="../Html/aboutus.html">About</a>
+
+            <a href="../Html/form.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">BonZai © 2022</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Suncity Streets-21</span> Kathmandu, Nepal</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+977..9803184146</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:your900bonzai@company.com">your900bonzai@company.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About the company</span>
+
+            Providing You The Greenery You Want At Your Door Steps
+
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/bonsainepal.bonsaitrees"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                </svg></a>
+            <a href="https://www.instagram.com/bonsainepalbonsaitrees/"><svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg></a>
+            <a href="https://twitter.com/bonsainep"><svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                </svg></a>
+
+        </div>
+
+    </div>
+
+</footer>
+  <script>
+     var images = [ '../images/tech3.jpg', '../images/tech2.jpg', '../images/tech1.jpg']
+
+var x = 0;
+var imgs = document.getElementById('img');
+//The setInterval() calls a function at theintervals (in milliseconds). 
+setInterval(slider, 3000);
+
+function slider() {
+  
+  if (x < images.length) 
+    {
+    x = x + 1;
+    } 
+
+  else 
+    {
+    x = 1;
+    }
+
+  
+  imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+}
+  </script> 
+
+</html>
